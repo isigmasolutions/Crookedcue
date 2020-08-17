@@ -31,7 +31,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
+	<!-- <a class="skip-link screen-reader-text" href="#content"><?php //_e( 'Skip to content', 'twentyseventeen' ); ?></a> -->
 <div class="headerContainerWrapper">
   <div class="headerContainerShadow">
 	<div class="headerContainer">

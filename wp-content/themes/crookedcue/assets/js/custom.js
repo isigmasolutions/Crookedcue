@@ -163,32 +163,24 @@ function ajaxcall(checkvalue){
           jQuery(this).addClass('quick_view');
           jQuery(this).attr('data-product-id' , getproductid);
           jQuery(this).parent().parent().parent().next().next().next().next().after('<a style="width:23%" data-product-id="'+getproductid+'" class="quick_view button removeuickview">View Options</a>');
-          //jQuery(this).parent().before('<div class="checkccc"><input type="checkbox" value="494" class="quick_view checkboxchecked" data-product-id="'+getproductid+'"></div>');
-          //jQuery(this).after('<a data-product-id="'+getproductid+'" class="quick_view button removeuickview">View Options</a>');
-        jQuery(this).removeAttr('disabled');
+           jQuery(this).removeAttr('disabled');
 
         });
         //// Add View button for all products
         jQuery('.appendpartyhtml .appendquickview table button[name="add-to-cart"]').each(function(){
           var getproductid = jQuery(this).val();
-          //alert(getproductid);
-          //jQuery(this).wrap('<a data-product-id="'+getproductid+'" class="quick_view button">');
           
-          
-         // jQuery(this).after('<a data-product-id="'+getproductid+'" class="quick_view button removeuickview">View Options</a>');
-        
         });
 //// Add View button for variation products
         jQuery('.appendpartyhtml .appendquickview table input[name="add-to-cart"]').each(function(){
-          var getproductid = jQuery(this).val();
-                   
-          //jQuery(this).hide();
+          var getproductid = jQuery(this).val();                
+   
           jQuery(this).after('<a data-product-id="'+getproductid+'" class="quick_view button removeuickview">View Options</a>');
         
         });   
 
         
-        //jQuery('.appendpartyhtml #RestaurantArea .variations_form.cart.initialised').hide();
+        
 
           
     }
@@ -201,6 +193,7 @@ function ajaxcall(checkvalue){
 //////// Drop down onchange function
 
   jQuery('#locationonchange').on('change' , function(){
+  
 
     var checkvalue = jQuery(this).val();
     
@@ -213,6 +206,26 @@ function ajaxcall(checkvalue){
     }
    
   })
+
+  /////// Update quenty;
+  jQuery('.clickeonqty').on('click' , function(){
+
+    var getclickedqtyid = jQuery(this).attr('alt');
+    var getqtyvalue = jQuery(this).val();
+
+    jQuery('.updateqty'+getclickedqtyid).attr("data-quantity",getqtyvalue);
+
+  })
+
+  jQuery( ".clickeonqty" ).on('keyup',function() {
+      var getclickedqtyid = jQuery(this).attr('alt');
+      var getqtyvalue = (jQuery(this).val()) ? jQuery(this).val() : '1';
+      if(getqtyvalue == 0 ){jQuery(this).val(1);   getqtyvalue = 1;}
+      if(getqtyvalue == '' ){jQuery(this).val(1);  getqtyvalue = 1;}
+      if(getqtyvalue == ' ' ){jQuery(this).val(1); getqtyvalue = 1;}
+
+    jQuery('.updateqty'+getclickedqtyid).attr("data-quantity",getqtyvalue);
+});
 
 
 /////// Auto Select location 
@@ -365,6 +378,57 @@ jQuery('#sendemailtousers').on('click' , function(){
   });
 
 })
+
+
+
+
+
+
+jQuery(document).on('change', '#uploadfile', function(){
+  var name = document.getElementById("uploadfile").files[0].name;
+  var form_data = new FormData();
+  var ext = name.split('.').pop().toLowerCase();
+  if(jQuery.inArray(ext, ['gif','png','jpg','jpeg','zip']) == -1) 
+  {
+   alert("Invalid Image File");
+  }
+  var oFReader = new FileReader();
+  oFReader.readAsDataURL(document.getElementById("uploadfile").files[0]);
+  var f = document.getElementById("uploadfile").files[0];
+  var fsize = f.size||f.fileSize;
+  if(fsize > 2000000)
+  {
+   alert("Image File Size is very big");
+  }
+  else
+  {
+   form_data.append("uploadfile", document.getElementById('uploadfile').files[0]);
+   form_data.append("action", 'uploadfileonchange');
+   jQuery.ajax({
+        url:"/wp-admin/admin-ajax.php",
+        method:"POST",
+        //data: {'action':'uploadfileonchange','file',form_data},
+        data: form_data,
+        contentType: false,
+        cache: false,
+        processData: false,
+        beforeSend: function() { 
+          jQuery('body').addClass("loading");  
+          jQuery('body').append('<div class="modalgif"></div>');
+              },
+        complete: function() { 
+          jQuery('body').removeClass("loading"); 
+          jQuery('.modalgif').remove();
+        },  
+    success:function(data)
+    {
+      jQuery('#uploaded_image').attr('src' , data);
+      jQuery('#partyimage').val(data);
+      jQuery('#uploaded_image').show();
+    }
+   });
+  }
+ });
 
 });
 <!--------------------------------------------->

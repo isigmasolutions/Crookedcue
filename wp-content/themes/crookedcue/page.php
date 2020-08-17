@@ -34,6 +34,10 @@ get_header('inner'); ?>
 
 	<?php the_content(); ?>
 
+<?php $q = wp_get_post_revisions( get_the_id() );
+        echo 'version : '.count( $q );
+
+ ?>
 	<?php endwhile; ?>
 
 <?php endif; ?>      

@@ -41,6 +41,10 @@ echo '<label>Event Location : </label>'.get_post_meta($post->ID, 'event_location
 $numberofguest = get_post_meta($post->ID, 'event_additional_guest',true);
 the_content();
 the_post_thumbnail('medium');
+$q = wp_get_post_revisions( get_the_id() );
+        echo 'version : '.count( $q );
+
+ 
 		endwhile; // End of the loop.
 		?>
 <form id="rsvpform">
@@ -54,7 +58,7 @@ the_post_thumbnail('medium');
     <input type="text" class="form-control" id="name" placeholder="Name" name="name">
   </div>
   <div class="form-group form-check">    
-    <label class="form-check-label" for="exampleCheck1">Rsvp</label>
+    <label class="form-check-label" for="exampleCheck1">Are you attending the event?</label>
     Yes : <input type="radio" name="rsvptruefalse" value="yes" checked="checked">
     NO  : <input type="radio" name="rsvptruefalse" value="no">
   </div>
@@ -66,8 +70,8 @@ the_post_thumbnail('medium');
   <?php echo get_post_meta($post->ID, 'dite_comment',true); ?>
   </div>
   <input type="hidden" name="postid" value="<?php the_id();?>">
-  <input type="hidden" name="fromid" value="<?php echo $_REQUEST['fromid']?>">
-  <input type="hidden" name="fromemail" value="<?php echo $_REQUEST['fromemail']?>">
+  <input type="hidden" name="fromid" value="<?php echo @$_REQUEST['fromid']?>">
+  <input type="hidden" name="fromemail" value="<?php echo @$_REQUEST['fromemail']?>">
       
   <div class="form-group">
     <label for="quantity">Additional Guest:</label>

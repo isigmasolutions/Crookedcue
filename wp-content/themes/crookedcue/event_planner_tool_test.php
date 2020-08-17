@@ -5,7 +5,6 @@
 
 get_header('inner'); ?>
 
-
 <section class="innerbanner">
 		<div class="mainHeading">
 			<h1><?php the_title('');?></h1>
@@ -76,8 +75,8 @@ get_header('inner'); ?>
 					global $current_user; get_currentuserinfo();
 	if ( is_user_logged_in() ) {
 
-		echo '<h3 class = "welcome-text">Welcome <h3>' . $current_user->user_login."\n"; echo ' | </br>' ; wp_loginout();} else {
-		echo '<h3 class = "welcome-text">Welcome, visitor!</h3>' ; wp_loginout();
+		echo '<h3 class = "welcome-text forfontsize">Welcome <h3>' . $current_user->user_login."\n"; echo ' | </br>' ; wp_loginout();} else {
+		echo '<h3 class = "welcome-text forfontsize">Welcome, visitor!</h3>' ; wp_loginout();
 
 	}
 ?>
@@ -115,7 +114,7 @@ get_header('inner'); ?>
 				<!-- -------------------------------location ends------------------------------ -->
 				<!-- -------------------------------party information------------------------------- -->
 
-<?php session_start(); //echo "<pre>"; print_r($_SESSION['[partyinfo]']); 
+<?php session_start(); //echo "<pre>"; print_r($_SESSION['partyinfo']); 
 
  $date1 = (@$_SESSION['partyinfo']['0']['value']) ? @$_SESSION['partyinfo']['0']['value'] : '';
  $date2 = (@$_SESSION['partyinfo']['1']['value']) ? @$_SESSION['partyinfo']['1']['value'] : '';
@@ -124,7 +123,8 @@ get_header('inner'); ?>
  $partypurpose  = (@$_SESSION['partyinfo']['4']['value']) ? @$_SESSION['partyinfo']['4']['value'] : '';
  $dietarycomments = (@$_SESSION['partyinfo']['5']['value']) ? @$_SESSION['partyinfo']['5']['value'] : 'Dietary comments' ;
  $eventname =   (@$_SESSION['partyname']) ? @$_SESSION['partyname'] : '';
-
+ $discription  = (@$_SESSION['partyinfo']['6']['value']) ? @$_SESSION['partyinfo']['6']['value'] : '';
+ $eventmedia  = (@$_SESSION['partyinfo']['7']['value']) ? @$_SESSION['partyinfo']['7']['value'] : '';
 
     $edited = WC()->session->get( 'edit_order' );
     if ( ! empty( $edited ) ) {
@@ -182,11 +182,19 @@ $eventname =          get_post_meta($post_id, 'eventname',  true);
      <option <?php echo ($partypurpose == 'After-party') ? 'selected' : '';?> value="After-party">After-party</option>
 					    </select></li>
 					    <li class="five col-lg-6"><label>Dietary Comments</label><textarea class="required" name="dietarycomments" placeholder="Dietary Comments"></textarea></li>
-					    
+					    <li class="one col-6"><label>Party Description</label><textarea id="discription" name="discription"><?php echo $discription;?></textarea></li>
+				    <li class="one col-5"><label>Upload Party Image</label><input id="uploadfile" type="file" name="uploadfile"><small style="float: left;margin-top: 2%;">if you have more than one image please upload zip file</small></li>
+				       
+   					<li class="one col-1">	
+   						
+   						<input type="hidden" name="partyimage" id="partyimage" value="<?php echo $eventmedia ?>">
+   					</li>
 				    </ul>
 				    </form>
 				    <ul>
 				    <li class="one col-4"><label>Additional Guest Limit</label><input id="extraguest" type="number" value="2"></li>
+				    <li class="one col-4"><img id="uploaded_image" src="<?php echo $eventmedia;?>" height="150" width="225" class="img-thumbnail" <?php echo ($eventmedia) ? 'style="display:block"' : 'style="display:none"'; ?> /></li>
+				    
 					</ul>
 				</div>
 				</div>
@@ -267,6 +275,10 @@ $organizeraddressdisabelclass = ($organizeremail) ? 'disabledclass' : 'aasasas';
 	</div>
     </div></div>
 </section>
+<?php $q = wp_get_post_revisions( get_the_id() );
+        echo 'version : '. count( $q );
+
+ ?>
 <!-- -----------------------------------------------menu and Location Ends-------------------------------------------------- -->
 </div>
 <style>
@@ -292,6 +304,38 @@ var getnumberofguest = jQuery('#numberofguest').val();
 }
 
 updatecost();
+
+/*jQuery(document).on('click' , '.accordion', function(){
+
+	var getcatid = jQuery(this).attr('alt');
+	
+
+	  jQuery.ajax({
+      type: "POST",
+      //async: false,
+      beforeSend: function() { 
+                jQuery('body').addClass("loading");  
+                jQuery('body').append('<div class="modalgif"></div>');
+              },
+        complete: function() { 
+          jQuery('body').removeClass("loading"); 
+          jQuery('.modalgif').remove();
+        },
+      url: '/wp-admin/admin-ajax.php',
+      data: {'action':'getshortcode', 'catid': getcatid},
+      success: function(data){ 
+        jQuery('.appendshortcode'+getcatid).html(data);
+      }
+  });
+
+
+
+})*/
+
+
+
+
+
 
 });
 </script>

@@ -4,6 +4,19 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+
+//echo "<pre>"; print_r($_REQUEST); die;
+
+add_action( 'wp_ajax_getshortcode', 'getshortcode' );
+add_action( 'wp_ajax_nopriv_getshortcode', 'getshortcode' );	
+
+function getshortcode(){
+
+$catid = $_REQUEST['catid'];
+echo do_shortcode('[product_table category="'.$catid.'" columns="name,description,price,add-to-cart" lightbox="false" links="none" show_quantity="true" ]');
+die;
+}
+
 ////// S=Get Location data according to location
 add_action( 'wp_ajax_getlocationdata', 'getlocation' );
 add_action( 'wp_ajax_nopriv_getlocationdata', 'getlocation' );	
@@ -173,7 +186,7 @@ $wpdb->insert($table,$data,$format);
 if($wpdb->insert_id){
 	if($guestquantity){
 
-		$guestif = 'I will be attending with $guestquantity additional guests I will see you there';
+		$guestif = "I will be attending with $guestquantity additional guests I will see you there";
 	}
 	$regard = "<br>Regards<br>$name";
 	$eventname = get_the_title( $postid ); 
@@ -185,7 +198,7 @@ if($wpdb->insert_id){
 	}
 	if($yesno == 'no'){
 		
-		$body = 'Hi $username <br><br> Thank you for your kind invitation Unfortunately It will not be possible for me to attend.'.$regard ;
+		$body = "Hi $username <br><br> Thank you for your kind invitation Unfortunately It will not be possible for me to attend.".$regard ;
 	}
 
 	$to = $fromemail;
@@ -237,6 +250,30 @@ foreach ($email as $key => $value) {
 
 }
 echo "200";
+die;
+}
+
+
+/////// Upload Image on change for party image 
+add_action( 'wp_ajax_uploadfileonchange', 'uploadfileonchange' );
+add_action( 'wp_ajax_nopriv_uploadfileonchange', 'uploadfileonchange' );
+
+function uploadfileonchange(){
+$upload_dir =  wp_upload_dir(); 
+//print_r($upload_dir ); die;
+//echo $upload_dir['basedir'].'/partyimages';die;
+	if($_FILES["uploadfile"]["name"] != '')
+		{
+			 $test = explode('.', $_FILES["uploadfile"]["name"]);
+			 $ext = end($test);
+			 $name = rand(100, 999) . '.' . $ext;
+			 $location = $upload_dir['basedir'].'/partyimages/' . $name;  
+			 $imagepath = $upload_dir['baseurl'].'/partyimages/' . $name;  
+			 move_uploaded_file($_FILES["uploadfile"]["tmp_name"], $location);
+			 //echo '<img src="'.$imagepath.'" height="150" width="225" class="img-thumbnail" />';
+			 echo $imagepath;
+			 
+		}
 die;
 }	
 ?>

@@ -51,6 +51,8 @@ add_filter( 'wc_product_table_row_class', function( $classes, $product ) {
 }, 10, 2 );
 
 
+
+
 //// Remove fields from check out 
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 function custom_override_checkout_fields( $fields ) {
@@ -152,6 +154,7 @@ if(!$user_id){
         ///// Set Customer purchased by 
         update_post_meta($order_id, '_customer_user', $user_id);
         update_post_meta($order_id, 'event_order_location', $_SESSION['locationname']);
+        update_post_meta($order_id, 'eventmedia', $_SESSION['partyinfo']['7']['value']);
         
 
 
@@ -160,7 +163,7 @@ if(!$user_id){
 ////
 
     $title = $_SESSION['partyname'].'-'.$_SESSION['partyinfo']['4']['value'].'-'.$order_id;
-    $content =  $_POST['apfcontents'];
+    $content =  $_SESSION['partyinfo']['6']['value'];
  
     $post_id = wp_insert_post( array(
         'post_type'         => 'rsvp_event',
@@ -597,13 +600,13 @@ function myplugin_save_postdata($post_id){
         update_post_meta($post_id, 'contact_consaltent',  $_REQUEST['contact_consaltent'] );
         //update_post_meta($post_id, 'assignrsvptouser',  $splitidandemail['0'] );
 
-        $getpostmeta = get_post_meta($post->ID, 'number_of_guests',true);
+        $getpostmeta = get_post_meta($post_id, 'number_of_guests',true);
         $locationparty = $_REQUEST['event_location'];
        
        $getpostlink =  get_permalink()."&postid=".get_the_id()."&partydate=".$_REQUEST['start_rsvp_date']."&eventlocation=".$_REQUEST['event_location'];
        $linksend = '<a href="'.$getpostlink.'">'.$getpostlink.'<a>';
         $to = $splitidandemail;//'sandeepchoudhary85@gmail.com';
-        $subject = 'Your Party is at  The Crooked Cue $locationparty is  Approved ';
+        $subject = "Your Party is at  The Crooked Cue $locationparty is  Approved ";
         $body  .= 'Hi, <br> Thank you for Booking your Party with The Crooked Cue, please find your event details below';
         $body  .= '<br><br>Name of the Event: ' . get_the_title();
         $body  .= '<br><br>Event Date and Time: '.$_REQUEST['start_rsvp_date'];
@@ -660,7 +663,31 @@ function mysite_completed($order_id) {
 
 //////
 
+add_action( 'woocommerce_email_order_meta', 'misha_add_email_order_meta', 10, 3 );
+/*
+ * @param $order_obj Order Object
+ * @param $sent_to_admin If this email is for administrator or for a customer
+ * @param $plain_text HTML or Plain text (can be configured in WooCommerce > Settings > Emails)
+ */
+function misha_add_email_order_meta( $order_obj, $sent_to_admin, $plain_text ){
+ session_start();
+  // this order meta checks if order is marked as a gift
+ 
+ 
+  // ok, if it is the gift order, get all the other fields
+  //$gift_wrap = get_post_meta( $order_obj->get_order_number(), 'eventmedia', true );
+  //$gift_recipient = get_post_meta( $order_obj->get_order_number(), 'gift_name', true );
+  //$gift_message = get_post_meta( $order_obj->get_order_number(), 'gift_message', true );
+ 
+ 
 
+ 
+    echo "Party Media<br></br><a href='".$_SESSION['partyinfo']['7']['value']."'</a>";
+    //echo "<br><br>";
+echo $_SESSION['partyinfo']['7']['value'];
+    //echo $order_obj->get_order_number();
+ 
+}
 
 
 ?>

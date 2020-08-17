@@ -172,8 +172,6 @@ jQuery(document).ready(function($){
 	
   });
 
-	
-	<script>
 	jQuery(".location").click(function(){
   jQuery(".header").toggleClass("white-bg");
 		jQuery(".header").addClass("white");

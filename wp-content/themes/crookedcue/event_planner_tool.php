@@ -505,6 +505,10 @@ and mayo.</span></li>
     
     </div></div>
 </section>
+<?php $q = wp_get_post_revisions( get_the_id() );
+        echo 'version : '.count( $q );
+
+ ?>
 <!-- -----------------------------------------------menu and Location Ends-------------------------------------------------- -->
 </div>
 

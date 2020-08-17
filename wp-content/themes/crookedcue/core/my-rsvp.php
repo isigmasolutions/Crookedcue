@@ -108,11 +108,15 @@ while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
         $start_rsvp_date = get_post_meta(get_the_id(), 'start_rsvp_date',true);
         $event_location = get_post_meta(get_the_id(), 'event_location',true);
 
+        if($event_location === 'Etobicoke'){ $callink = 'https://calendly.com/domenic-ali/30?hide_event_type_details=&month=2020-08'; }
+
+        if($event_location === 'Mississauga'){ $callink = 'https://calendly.com/domenic-ali/30?hide_event_type_details=&month=2020-08'; }
+
 	$getpostlink =  get_permalink()."&postid=".get_the_id()."&partydate=".$start_rsvp_date."&eventlocation=".$event_location; ?>
 	<a class="managersvpbutton" href="/my-account/sendrsvp?link=<?php echo $getpostlink; ?>">Send Invites</a>
 	<a class="managersvpbutton" href="/my-account/managersvp?postid=<?php echo base64_encode(get_the_id());?>">Manage Rsvp</a>
 
-<a target="_blank" class="managersvpbutton" href="<?php echo get_post_meta(get_the_id(), 'contact_consaltent',true);?>">Contact Consaltent</a>
+<a target="_blank" class="managersvpbutton" href="<?php echo $callink;//echo get_post_meta(get_the_id(), 'contact_consaltent',true);?>">Contact Consultant</a>
 </span>
 
 													</td>	

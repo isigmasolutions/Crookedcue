@@ -374,3 +374,20 @@ body.loading {
 #wccf_product_field_master_container {
 	display: none;
 }
+
+.col-sm-12.fornewstyle {
+	display: flex;
+	padding: 30px 20px !important;
+	border-top: 1px solid #ababab !important;
+}
+
+.button.add_to_cart_button.product_type_hideselectbox {
+	display: none;
+}
+
+.loginsidebar {
+	background: #ffff;
+}
+.white-bg .row {
+	margin: 0;
+}
