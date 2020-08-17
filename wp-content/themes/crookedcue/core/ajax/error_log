@@ -1,0 +1,24 @@
+[25-Jun-2020 04:10:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 3
+[25-Jun-2020 04:12:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:3
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 3
+[25-Jun-2020 04:12:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 5
+[25-Jun-2020 04:14:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 7
+[25-Jun-2020 04:15:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 7
+[25-Jun-2020 04:26:30 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 6

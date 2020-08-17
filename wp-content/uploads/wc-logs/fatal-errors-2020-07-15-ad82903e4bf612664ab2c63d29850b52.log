@@ -1,0 +1,100 @@
+2020-07-15T04:46:12+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php:473
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-admin/includes/template.php(1345): myplugin_meta_box_callback3(Object(WP_Post), Array)
+#1 /home1/devstag1/public_html/CrookedCue/wp-admin/edit-form-advanced.php(700): do_meta_boxes(Object(WP_Screen), 'advanced', Object(WP_Post))
+#2 /home1/devstag1/public_html/CrookedCue/wp-admin/post.php(206): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 473
+
+2020-07-15T04:47:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php:473
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-admin/includes/template.php(1345): myplugin_meta_box_callback3(Object(WP_Post), Array)
+#1 /home1/devstag1/public_html/CrookedCue/wp-admin/edit-form-advanced.php(700): do_meta_boxes(Object(WP_Screen), 'advanced', Object(WP_Post))
+#2 /home1/devstag1/public_html/CrookedCue/wp-admin/post.php(206): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 473
+
+2020-07-15T05:03:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php:473
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-admin/includes/template.php(1345): myplugin_meta_box_callback3(Object(WP_Post), Array)
+#1 /home1/devstag1/public_html/CrookedCue/wp-admin/edit-form-advanced.php(700): do_meta_boxes(Object(WP_Screen), 'advanced', Object(WP_Post))
+#2 /home1/devstag1/public_html/CrookedCue/wp-admin/post.php(206): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 473
+
+2020-07-15T05:20:44+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:20:46+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:22:09+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:22:14+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:22:33+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:22:38+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 479
+
+2020-07-15T05:23:35+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 483
+
+2020-07-15T07:06:33+00:00 CRITICAL syntax error, unexpected end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 339
+
+2020-07-15T07:17:22+00:00 CRITICAL syntax error, unexpected ''e' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 275
+
+2020-07-15T07:30:04+00:00 CRITICAL syntax error, unexpected 'update_post_meta' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 141
+
+2020-07-15T07:30:06+00:00 CRITICAL syntax error, unexpected 'update_post_meta' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 141
+
+2020-07-15T07:30:17+00:00 CRITICAL syntax error, unexpected 'update_post_meta' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 141
+
+2020-07-15T07:30:18+00:00 CRITICAL syntax error, unexpected 'update_post_meta' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 141
+
+2020-07-15T07:37:37+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 555
+
+2020-07-15T07:37:44+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 555
+
+2020-07-15T07:44:58+00:00 CRITICAL syntax error, unexpected end of file, expecting '(' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 337
+
+2020-07-15T09:22:07+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /home1/devstag1/public_html/CrookedCue/wp-includes/post-template.php on line 118
+
+2020-07-15T09:25:23+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php on line 58
+
+2020-07-15T09:26:21+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php:50
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-includes/template-loader.php(106): include()
+#1 /home1/devstag1/public_html/CrookedCue/wp-blog-header.php(19): require_once('/home1/devstag1...')
+#2 /home1/devstag1/public_html/CrookedCue/index.php(17): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php on line 50
+
+2020-07-15T09:28:20+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_thumbnali() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php:54
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-includes/template-loader.php(106): include()
+#1 /home1/devstag1/public_html/CrookedCue/wp-blog-header.php(19): require_once('/home1/devstag1...')
+#2 /home1/devstag1/public_html/CrookedCue/index.php(17): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php on line 54
+
+2020-07-15T09:32:03+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_thumbnali() in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php:54
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-includes/template-loader.php(106): include()
+#1 /home1/devstag1/public_html/CrookedCue/wp-blog-header.php(19): require_once('/home1/devstag1...')
+#2 /home1/devstag1/public_html/CrookedCue/index.php(17): require('/home1/devstag1...')
+#3 {main}
+  thrown in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/my-rsvp.php on line 54
+
+2020-07-15T14:27:24+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:24+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:25+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:26+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:27+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:28+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:39+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+
+2020-07-15T14:27:43+00:00 CRITICAL syntax error, unexpected '$_SESSION' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 129
+

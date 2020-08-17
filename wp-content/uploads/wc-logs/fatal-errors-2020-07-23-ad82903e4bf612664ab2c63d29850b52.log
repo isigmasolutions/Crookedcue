@@ -1,0 +1,8 @@
+2020-07-23T13:37:39+00:00 CRITICAL syntax error, unexpected end of file, expecting ',' or ')' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 340
+
+2020-07-23T17:13:05+00:00 CRITICAL syntax error, unexpected '$eventlocation' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 8
+
+2020-07-23T17:13:06+00:00 CRITICAL syntax error, unexpected '$eventlocation' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 8
+
+2020-07-23T17:13:07+00:00 CRITICAL syntax error, unexpected '$eventlocation' (T_VARIABLE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 8
+

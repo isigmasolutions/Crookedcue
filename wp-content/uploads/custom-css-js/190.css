@@ -1,0 +1,244 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.page-id-167 .mainHeading a {
+    /*margin-top: 10px;*/
+}
+.appendpartyhtml .menu .col-description{
+  width:65%;line-height: 20px;
+}
+.appendpartyhtml .menu .col-description span.sticker {
+    padding-left: 9px;
+}
+.Takemenu-item p {
+    display: inline-block;
+    margin: 0;
+}
+.page-id-167 .mainHeading {
+    /*position: absolute;
+    content: "";
+    bottom: 0;
+    text-transform: uppercase;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 58% !important;
+    text-align: center;
+    width: 100%;*/
+}
+ .Takemenu-item h5{
+    margin-top: 8px;
+}
+.Takemenu-item p{font-size:18px;}
+.Takemenu-item{text-align:center;}
+.Takemenu-item  h4 {
+  margin-top:20px !important;
+    font-size: 22px;
+    font-weight: bold;
+    color: #c16939;
+    text-transform: capitalize;
+}
+.option2 h5 br {
+    display: none;
+}
+.option2 h5 a{color:#d2874f; }
+.optionsLogo h5{text-align:center;}
+.optionsLogo h5 a{
+  text-align:center;
+    margin-bottom: 10px;
+  text-decoration:none;
+    color: #d2874f;font-weight:700; text-decoration:underline;
+      display: inline-block;
+}
+.HowOrder [class*="col-"]:last-child a img {
+    width: 100px;
+}
+.wpm_6310_team_style_1{border:none !important;}
+.Menues h5 a:hover{
+    color: #d2874f;
+}
+.partyCost {
+    width: 85%;
+    font-size: 95%;
+    box-shadow: 0px 0px 4px 1px #d7cece;
+    border-radius: 15px;
+    padding: 30px 20px 5px;
+}
+.SideBar {
+    width: 85%;
+    border-radius: 10px;
+    background: #3b3c3e;
+}
+.partyCost ul{font-size:15px;}
+.our-menu {
+    background: #c16939;
+    width: 94%;
+    margin: 0 auto;
+    z-index: 99;
+}
+.is-sticky .our-menu {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transform: translate(3%, 0);
+}
+.camraicn {
+    display: inline-block;
+    padding: 0 6px;
+    color: black;
+}
+
+.innerbanner h1 {
+    font-size: 3.625em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.header:hover .location.main:after {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f00d" !important;
+    right: -7px;
+    position: absolute;
+    font-weight: 900;
+}
+.menuItem h4 {
+   margin: 0 0 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #c16939;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 22px;
+}
+.menuItem p {
+    display: inline-block;
+  margin: 0;
+    vertical-align: text-bottom;
+}
+.menuItem span {
+  margin-left: 8px;
+    font-size: 18px;
+    color: #c16939;
+    font-weight: 400;
+    display: inline-block;
+}
+.menuItem img {
+    display: inline-block;
+    margin: 0 0 0 8px;
+}
+.menuItem p {
+    display: inline-block;
+  margin: 0;
+}
+.menuWrap .text {
+    font-size: 18px;
+}
+.menuLiMargn ul li {
+    margin-bottom: 30px;
+  min-height: 10px;
+}
+.menuWrap .text h5 span, span.colBlue {
+    color: #002060!important;
+}
+.menuWrap .text h5 {
+    margin: 8px 0 0;
+      display: inline-block;
+}
+.menuWrap .text b {
+    font-weight: 600;
+}
+.menuWrap .text span{
+  color: #c16939;
+}
+.menuWrap .text p {
+    display: inline-block;
+  margin: 0;
+}
+.textCenterCtrl {
+    text-align: center;
+    margin: 50px 0 0;
+}
+.saladMeal ul li {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+}
+.textCenterCtrl.saladMeal {
+    margin: 0;
+}
+.mainHeadCol {
+    background: #c16939;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+  margin-top: 60px;
+}
+.mainHeadCol h2 {
+    margin-bottom: 0;
+}
+.headTwoPhrase {
+    color: #002060!important;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.centerTextCol {
+    text-align: center;
+}
+.text.diffCol span.colPriceOrg {
+    padding-left: 3px;
+    padding-right: 15px;
+    font-size: 18px;
+    color: #c16939 !important;
+    font-weight: 400;
+}
+ul.autoHeight li {
+    min-height: unset;
+}
+.menuItem h6 {
+    font-size: 19px;
+    display: inline-block;
+    margin: 0;
+}
+.textCenterCtrl.margnX {
+    margin: 10px 0 0;
+}
+.textCenterCtrl.margnX ul li, .textCenterCtrl.margnX ul {
+    margin-bottom: 0;
+}
+.menuItem h5 {
+    display: inline-block; 
+}
+.menuItem h5 span {
+    color: #002060;
+  font-weight: 600;
+}
+.textCenterCtrl.brownColX {
+  padding: 50px 0 10px;
+    background: #c16939;
+    color: #fff !important;
+    margin: 30px 0;
+}
+.textCenterCtrl.brownColX .menuItem span, .textCenterCtrl.brownColX .menuItem h4 {
+    color: #fff;
+}
+.mainHeading p {
+    text-align: justify;
+    margin: 0 auto;
+  width: 60%;
+    
+}
+@media (max-width: 1199px) {
+  .mainHeading p {
+    width: 90%;
+    margin: 0 auto;
+}
+}
+@media (max-width: 767.98px) {
+  
+  .saladMeal ul li {
+    width: 100%; 
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.Banner {
+    padding: 25% 0;
+}
+}</style>
+<!-- end Simple Custom CSS and JS -->

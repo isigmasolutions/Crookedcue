@@ -1,0 +1,158 @@
+/* horiazontal tabs */
+ul.wonderplugin-tab-buttons-horizontal {
+	display: block;
+	width: 100%;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	box-sizing: border-box;
+	list-style: none;	
+	padding: 0;
+	margin: 24px 0;
+	font-size: 14px;
+}
+
+ul.wonderplugin-tab-buttons-horizontal li {
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	padding: 12px 18px;
+	margin: 6px;
+	cursor: pointer;
+	text-align: center;
+	color: #0087be;
+	font-weight: 500;
+}
+
+ul.wonderplugin-tab-buttons-horizontal li:hover {
+	color: #00a0d2;
+	background-color: #f0f0f0;
+}
+
+ul.wonderplugin-tab-buttons-horizontal li.wonderplugin-tab-button-horizontal-selected {
+	color: #333;
+	background-color: #f0f0f0;
+}
+
+ul.wonderplugin-tabs-horizontal {
+	margin: 24px auto;	
+}
+
+li.wonderplugin-tab-horizontal {
+	display: none;
+	padding: 0;
+}
+
+li.wonderplugin-tab-horizontal.wonderplugin-tab-horizontal-selected {
+	display: block;
+}
+
+li.wonderplugin-tab-horizontal .form-table {
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+li.wonderplugin-tab-horizontal .form-table th {
+	width: 240px;
+	padding: 15px 20px;
+}
+
+li.wonderplugin-tab-horizontal .form-table td {
+	padding: 15px 20px;
+}
+
+li.wonderplugin-tab-horizontal .form-table td p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+li.wonderplugin-tab-horizontal .form-table td input[type=text] {
+	padding: 6px;
+}
+
+/* option panel section */
+.wonderplugin-panel-section {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 24px;
+	margin: 20px 0;
+}
+
+/* disabled state */
+.wonderplugin-disabled {
+	opacity: 0.6;
+}
+
+/* alpha color picker */
+.wonderplugin-alpha-slider {
+    display: none;
+    position: relative;
+    width: 230px;
+    height: 24px;
+    margin: 12px;
+    border: 1px solid #999;
+    background-color: #fff;
+    background-image: url(images/alpha.png);
+}
+
+.wp-picker-active .wonderplugin-alpha-slider {
+    display: block;
+}
+
+.wonderplugin-alpha-slider .ui-slider-handle,
+.wonderplugin-alpha-slider .ui-widget-content .ui-state-default {
+	position: absolute;
+	z-index: 2;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    background-color: #FFF;
+	text-shadow: 0 1px 0 #FFF;
+	border: 1px solid #aaa;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	margin-top: -2px;
+	top: 0;
+	height: 26px;
+    width: 20px;
+    padding: 0;
+	margin-left: -10px;
+    cursor: ew-resize;
+    font-size: 10px;
+    text-align: center;
+    line-height: 26px;
+}
+
+/* error and updated message */
+.wonderplugin-updated {
+	background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 0 15px;
+    padding: 1px 12px;
+    border-left-color: #46b450;
+}
+
+.wonderplugin-error {
+	background: #fff;
+    border-left: 4px solid #fff;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 0 15px;
+    padding: 1px 12px;
+    border-left-color: #ff0000;
+}
+
+.wonderplugin-error-message {
+	display: none;
+}
+
+/* news list */
+ul.wonderplugin-feature-list {
+	list-style-type: disc;
+	margin-left: 24px;
+}
+
+ul.wonderplugin-feature-list li{
+	margin: 8px 0;
+	padding-left: 4px;
+}

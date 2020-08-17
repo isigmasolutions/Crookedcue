@@ -1,0 +1,67 @@
+/* content CSS */
+.wonder-wooquickview-content,
+.wonder-wooquickview-content div,
+.wonder-wooquickview-content ul,
+.wonder-wooquickview-content ol,
+.wonder-wooquickview-content li {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wonder-wooquickview-content ul,
+.wonder-wooquickview-content ol {
+    list-style: none;
+}
+
+.wonder-wooquickview-content li {
+    line-height: 0;
+    vertical-align: bottom;
+}
+
+/* photo gallery */
+.wonder-wooquickview-content-gallery {
+    overflow: hidden;
+}
+
+.wonder-wooquickview-content-slider {
+    position: relative;
+}
+
+.wonder-wooquickview-content-slider .flex-control-thumbs li {
+    display: inline-block;
+    float: none;
+    line-height: 0;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+/* slider arrows */
+.wonder-wooquickview-content-slider .flex-nav-prev a {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.wonder-wooquickview-content-slider .flex-nav-next a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.wonder-wooquickview-content-summary {
+    position: relative;
+    text-align: left;
+}
+
+.woocommerce-product-rating .woocommerce-review-link {
+    display: none;    
+}
+
+/* general CSS */
+#wonderwooquickview_options,
+#wonderwooquickview_lightbox_options,
+.wonderplugin-engine {
+    display: none;
+}
+
+

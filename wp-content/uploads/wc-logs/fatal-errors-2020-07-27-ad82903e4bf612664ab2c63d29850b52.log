@@ -1,0 +1,12 @@
+2020-07-27T06:56:18+00:00 CRITICAL syntax error, unexpected ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 198
+
+2020-07-27T06:57:10+00:00 CRITICAL syntax error, unexpected ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 198
+
+2020-07-27T06:57:19+00:00 CRITICAL syntax error, unexpected ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 198
+
+2020-07-27T06:57:23+00:00 CRITICAL syntax error, unexpected ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 198
+
+2020-07-27T06:57:28+00:00 CRITICAL syntax error, unexpected ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 198
+
+2020-07-27T15:48:01+00:00 CRITICAL syntax error, unexpected ''</div><input type="hidden" id' (T_ENCAPSED_AND_WHITESPACE) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 34
+

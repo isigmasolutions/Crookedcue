@@ -1,0 +1,6 @@
+2020-07-22T08:09:27+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/event_planner_tool_test.php on line 137
+
+2020-07-22T11:21:09+00:00 CRITICAL syntax error, unexpected end of file in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 340
+
+2020-07-22T15:14:47+00:00 CRITICAL syntax error, unexpected '.' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/view_order_summary.php on line 116
+

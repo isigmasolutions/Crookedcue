@@ -1,0 +1,376 @@
+/*
+Theme Name: CrookedCue
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 2.2
+Requires at least: 4.7
+Requires PHP: 5.2.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+/* =WordPress Core
+-------------------------------------------------------------- */
+#modalpopuplocation {
+    z-index: 9999999;
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+#popupdatepick,#appt{
+    background-repeat: no-repeat;
+    background-image: url(../img/calender.jpg);
+    background-position: 98% 55%;
+    border: 2px solid #ce854e;
+    padding: 10px 10px;
+}
+
+
+
+#customer_login .u-column1.col-1, #customer_login .u-column2.col-2 {
+    max-width: 50% !important;
+    float: left;
+}
+
+#customer_details .col-1, #customer_details .col-2 {
+    max-width: 39%;
+}
+
+.noneorhide {
+    display: none;
+}
+p.order-again {
+display: none !important;
+}
+.woocommerce-billing-fields {
+    display: none;
+}
+.woocommerce-additional-fields {
+    /*display: none;*/
+}
+.modalgif {
+position:   fixed;
+z-index:    1000;
+top:        0;
+left:       0;
+height:     100%;
+width:      100%;
+background: rgba( 255, 255, 255, .8 ) 
+            url('assets/img/loading.gif') 
+            50% 50% 
+            no-repeat;
+opacity: 0.80;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+filter: alpha(opacity = 80)}
+
+body.loading {
+    overflow: hidden;   
+}
+
+.return-to-shop .button {
+	background: #ce854e !important;
+	cursor: pointer;
+	color: white !important;
+	transition: all 1s ease-in-out;
+	border: 2px solid #d08751;
+	font-weight: bold;
+	font-size: .900em !important;
+	padding: 4px 30px !important;
+	margin: 15px 0 0 !important;
+	display: table !important;
+	width: auto;
+	height: 35px !important;
+	border-radius: 0;
+}
+
+#customer_details {
+	display: none;
+}
+.return-to-shop {
+	width: 50%;
+	/* display: inline-block; */
+	float: left;
+	margin-top: -1%;
+	margin-bottom: 4%;
+}
+.woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5%;
+}
+.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--downloads {
+	display: none;
+}
+.woocommerce-MyAccount-navigation {
+	float: left;
+	width: 30% !important
+}
+.woocommerce-MyAccount-content {
+	float: right;
+	width: 68% !important
+}
+.managersvpbutton {
+	text-transform: uppercase;
+	background: #d08751;
+	transition: all 2s ease-in-out;
+	padding: 0px 8px;
+	font-size: 1em;
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #d08751;
+	margin-bottom: 20px;
+	width: 100% !important;
+	display: inline-block;
+	text-align: center;
+}
+
+.inputstyle{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid #ce854e;
+    border-radius: 0;
+    height: 44px;
+}
+.removeuickview {
+	background: #ce854e !important;
+	cursor: pointer;
+	color: white !important;
+	transition: all 1s ease-in-out;
+	border: 2px solid #d08751;
+	font-weight: bold;
+	font-size: .900em !important;
+	padding: 4px 30px !important;
+	margin: 15px 0 0 !important;
+	display: block !important;
+	width: 100%;
+	height: 35px !important;
+	border-radius: 0;
+	margin-top: 2% !important;
+}
+
+.appendpartyhtml .RestaurantArea .variations {
+	display: none;
+}
+.appendpartyhtml .RestaurantArea .single_variation_wrap {
+	display: none !important
+}
+.single_add_to_cart_button.button.alt.disabled.wc-variation-selection-needed {
+	display: none !important;
+}
+
+.buttonclass {
+	background: #ce854e !important;
+	cursor: pointer;
+	color: white !important;
+	transition: all 1s ease-in-out;
+	border: 2px solid #d08751;
+	font-weight: bold;
+	font-size: .900em !important;
+	padding: 4px 30px !important;
+	margin: 15px 0 0 !important;
+	display: block !important;
+	width: 22%;
+	height: 35px !important;
+	border-radius: 0;
+}
+.RestaurantArea .variations {
+	display: none !important;
+}
+.multi-cart-check .quick_view {
+	left: 5px !important;
+}
+.checkout_coupon.woocommerce-form-coupon {
+	display: block !important;
+}
+.added_to_cart.wc-forward {
+	display: none !important;
+}
+.loginsidebar {
+	width: 85%;
+	font-size: 95%;
+	box-shadow: 0px 0px 4px 1px #d7cece;
+	border-radius: 15px;
+	padding: 30px 20px 5px;
+}
+.loginsidebar h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.required.disabledclass {
+	pointer-events: none;
+	background: #ccc;
+}
+.woocommerce-button.button.pay {
+	display: none;
+}
+.woocommerce-button.button.cancel {
+	display: none;
+}
+.responcemessage {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	/* border: 1px solid; */
+	color: green;
+	text-transform: capitalize;
+}
+.add-to-cart-wrapper.multi-cart .variations {
+	display: none !important;
+}
+.add-to-cart-wrapper.multi-cart .single_variation_wrap .add-to-cart-button {
+	display: none !important;
+}
+#wccf_product_field_master_container {
+	display: none;
+}

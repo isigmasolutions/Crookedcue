@@ -1,0 +1,70 @@
+2020-07-08T09:10:18+00:00 CRITICAL require(): Failed opening required '/home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/locations/etobicoke.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 31
+
+2020-07-08T09:16:04+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/locations/mississauga.php on line 1
+
+2020-07-08T09:45:34+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:45:47+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:45:58+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:46:10+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:46:39+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:47:26+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:47:59+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:48:10+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:48:38+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:49:26+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:49:59+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T09:50:10+00:00 CRITICAL syntax error, unexpected '<<' (T_SL) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 20
+
+2020-07-08T10:15:39+00:00 CRITICAL require(): Failed opening required '1' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 13
+
+2020-07-08T10:16:04+00:00 CRITICAL require(): Failed opening required '1' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 13
+
+2020-07-08T20:07:38+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:46+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:47+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:48+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:49+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:49+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:50+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:51+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:52+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:53+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:54+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:54+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:55+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:56+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:07:57+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:08:19+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:08:19+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:08:20+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+
+2020-07-08T20:08:27+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 61
+

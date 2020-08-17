@@ -1,0 +1,27 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wc-product-table .cart .variations{    display: flex;}
+
+.fa-camera {
+    display: none;
+}
+.page-template-our-menu .menu-item .textCenterCtrl {
+    background: #fff;
+}
+.page-template-our-menu .menuItem h4 {
+    color: #000;
+}
+.mm-toggle {
+    display: none;
+}
+#nav-tabs-wrapper li {
+    padding: 0;
+}
+#nav-tabs-wrapper li a {
+    padding: 20px;
+    display: block;
+}
+.menu-item .table td {
+    min-width: 70px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

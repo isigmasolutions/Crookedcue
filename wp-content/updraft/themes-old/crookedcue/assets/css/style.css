@@ -1,0 +1,166 @@
+body {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+
+.white:hover .location::before {
+    filter: grayscale(100%);-webkit-filter: grayscale(100%);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+a:hover{text-decoration: none;}
+
+.topNav {
+    width: 100%;
+    padding: 15px 60px;
+}
+.topNav a
+{
+	font-size: 1.063em;
+}
+
+.topNav a:hover{color:#d28750;}
+
+.location {
+    text-transform: uppercase;
+    padding: 0 18px 0 30px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+.header {
+    padding: 10px 0;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
+/* .location:before {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f3c5";
+    left: 0;
+    position: absolute;
+    font-weight: 900;
+    font-size: 32px;
+    top: -13px;
+} */
+
+ .location:before {
+   background-image:url("http://crookedcue.devstageserver.com/wp-content/uploads/2020/05/location.png");
+	 background-repeat:no-repeat;
+    content: "";
+    left: 0;
+    position: absolute;
+ width:50px;
+	 height:50px;
+	 filter: brightness(0) invert(1);
+} 
+/* a.logo img {
+    filter: brightness(0) invert(1);
+} */
+.location:after {
+    font-family: 'Font Awesome\ 5 Free';
+    content: "\f078";
+    right: -7px;
+    position: absolute;
+    font-weight: 900;
+}
+.logo {
+    text-align: center;
+    display: block;
+}
+
+.getTable:before {
+    content: "\f562";
+    position: absolute;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+    left: -16px;
+    font-size: 32px;
+    top: -13px;
+}
+
+.getTable {
+    margin-left: auto;
+    display: table;
+    text-transform: uppercase;
+    color: #fff;
+    padding-left: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.innerbanner {
+    position: relative;
+    display: block;
+    background: url(/wp-content/uploads/2020/03/inner-banner.jpg); 
+	padding: 30% 0 0;
+    background-size: cover;
+}
+.Banner {
+    position: relative;
+    display: block;
+    background: url(../img/bannerImg.jpg);
+/* 	    background-image:url("http://crookedcue.devstageserver.com/wp-content/uploads/2020/05/cuBanner.jpg") */
+			background-repeat:no-repeat;
+    padding: 22% 0;
+    background-size: cover;
+}
+.Banner:before, .innerbanner:before {
+    position: absolute;
+    background: #000000;
+    content: "";
+    opacity: .5;
+    height: 100%;
+    top: 0;
+    width: 100%;
+}
+
+.mainHeading {
+    position: absolute;
+    
+    content: "";
+    bottom: 0;
+    text-transform: uppercase;
+    color: white;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 62%;
+    text-align: center;
+	width:100%
+}
+.mainHeading h1 {
+    font-size: 3.625em;
+    font-weight: bold;
+}
+.mainHeading a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.250em;
+}
+.mainHeading a {
+    transition: all 2s ease-in-out;
+    background: transparent;
+    opacity: 83%;
+    padding: 10px 0;
+    width: 220px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 50px;
+    opacity: 1;
+}
+.mainHeading a:hover, .partiesEvents a:hover {
+    background: white;
+    color: black;
+}
+
+.optionsLogo {
+    padding: 30px 0;
+    background: #38383a url(../img

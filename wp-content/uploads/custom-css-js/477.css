@@ -1,0 +1,152 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.blog-desc h3 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.blog-desc h3 a{
+  color:#000
+}
+.blog-desc .info {
+    color: #7c7c7c;
+    font-size: 15px;
+}
+.blog-desc .btn {
+    text-transform: uppercase;
+    background: #d08751;
+    transition: all 2s ease-in-out;
+    padding: 5px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #d08751;
+    display: table;
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+.blog-desc .btn:hover {
+    background: transparent;
+    color: #d08751;
+}
+.blog-desc .info .author {
+    float: right;
+}
+.blog-desc {
+    padding: 25px;
+    border: 1px solid #e8e8e8;
+}
+.blog-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-listing [class*="col-"] {
+    margin-bottom: 50px;
+}
+.filter [class*="col-"] {
+    margin-bottom: 20px;
+}
+.filter {
+    margin: 35px 0 60px;
+}
+.filter select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #d7d7d7;
+}
+.author span {
+    color: #d08751;
+}
+.blog-listing .navigation {
+    display: block;
+    width: 100%;
+}
+.filter [type="search"] {
+    padding: 8px 10px;
+    border: 1px solid #d7d7d7;
+    background: url(/wp-content/uploads/2020/06/search_icon.jpg);
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 98%;
+  width: 100%;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #000;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #000;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #000;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #000;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #000;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #000;
+}
+.blog-detail .blog-desc {
+    padding: 0;
+    border: none;
+}
+.blog-detail .blog-desc .info .author {
+    float: none;
+}
+.blog-detail .blog-desc .info .date, .blog-detail .blog-desc .info .author {
+    display: block;
+}
+.blog-detail .title {
+    font-size: 26px;
+    margin: 20px 0;
+}
+.featured-thumb {
+    margin-bottom: 20px;
+}
+.grid1 [type="search"] {
+    padding: 8px 10px;
+    border: 1px solid #d7d7d7;
+    background: url(/wp-content/uploads/2020/06/search_icon.jpg);
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 98%;
+  width: 100%;
+}
+.grid2 h4, .grid3 h4 {
+    font-size: 22px;
+    font-weight: 600;
+    border-bottom: 1px solid #b2b2b2;
+    border-bottom-style: dashed;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+.grid2 a {
+    color: #000;
+    display: block;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.grid3 ul li {
+    color: #000;
+    display: block;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.grid3 a {
+    color: #000;
+}
+.grid2 {
+    margin: 30px 0;
+}
+.blog-thumb {
+    height: 205px;
+}
+.search-results .result {
+    margin-bottom: 35px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

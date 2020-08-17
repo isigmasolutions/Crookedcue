@@ -1,0 +1,28 @@
+2020-07-14T07:10:52+00:00 CRITICAL syntax error, unexpected 'sasas' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 7
+
+2020-07-14T07:10:52+00:00 CRITICAL syntax error, unexpected 'sasas' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 7
+
+2020-07-14T07:10:52+00:00 CRITICAL syntax error, unexpected 'sasas' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 7
+
+2020-07-14T07:10:53+00:00 CRITICAL syntax error, unexpected 'sasas' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 7
+
+2020-07-14T07:10:59+00:00 CRITICAL syntax error, unexpected 'sasas' (T_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php on line 7
+
+2020-07-14T12:56:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function endurance_set_last_login(), 1 passed in /home1/devstag1/public_html/CrookedCue/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /home1/devstag1/public_html/CrookedCue/wp-content/plugins/mojo-marketplace-wp-plugin/inc/track-last-login.php:16
+Stack trace:
+#0 /home1/devstag1/public_html/CrookedCue/wp-includes/class-wp-hook.php(287): endurance_set_last_login('test@gmail.com')
+#1 /home1/devstag1/public_html/CrookedCue/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home1/devstag1/public_html/CrookedCue/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/custom_functions.php(108): do_action('wp_login', 'test@gmail.com')
+#4 /home1/devstag1/public_html/CrookedCue/wp-includes/class-wp-hook.php(287): wc_register_guests(986)
+#5 /home1/devstag1/public_html/CrookedCue/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+# in /home1/devstag1/public_html/CrookedCue/wp-content/plugins/mojo-marketplace-wp-plugin/inc/track-last-login.php on line 16
+
+2020-07-14T22:40:38+00:00 CRITICAL syntax error, unexpected ''?fromid='' (T_CONSTANT_ENCAPSED_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 119
+
+2020-07-14T22:40:38+00:00 CRITICAL syntax error, unexpected ''?fromid='' (T_CONSTANT_ENCAPSED_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 119
+
+2020-07-14T22:40:47+00:00 CRITICAL syntax error, unexpected ''?fromid='' (T_CONSTANT_ENCAPSED_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 119
+
+2020-07-14T22:40:53+00:00 CRITICAL syntax error, unexpected ''?fromid='' (T_CONSTANT_ENCAPSED_STRING) in /home1/devstag1/public_html/CrookedCue/wp-content/themes/crookedcue/core/ajax/ajax.php on line 119
+

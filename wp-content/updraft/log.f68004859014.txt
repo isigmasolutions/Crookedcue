@@ -1,0 +1,199 @@
+0000.000 (0) Opened log file at time: Fri, 08 May 2020 09:10:58 +0000 on http://crookedcue.devstageserver.com
+0000.100 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.2.30 (cgi-fcgi, Linux box5691.bluehost.com 4.14.94-164.ELK.el7.x86_64 #1 SMP Wed Jan 16 17:14:35 CST 2019 x86_64) MySQL: 5.7.23-23 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39.2M | 42.3M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.135 (0) Free space on disk containing Updraft's temporary directory: 195803.5 MB
+0000.138 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.140 (0) Semaphore (fd, 0nt_options) being initialised
+0000.141 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.142 (0) Set semaphore last lock (fd) time to 2020-05-08 09:10:58
+0000.143 (0) Semaphore lock (fd) complete
+0000.145 (0) Backup run: resumption=0, nonce=f68004859014, file_nonce=f68004859014 begun at=1588929058 (0s ago), job type=backup
+0000.147 (0) Scheduling a resumption (1) after 300 seconds (1588929358) in case this run gets aborted
+0000.160 (0) Checking if we have a zip executable available
+0000.161 (0) Testing: /usr/bin/zip
+0000.167 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.167 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.168 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.168 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.169 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.173 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.174 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.182 (0) Working binary zip found: /usr/bin/zip
+0000.183 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.183 (0) Creation of backups of directories: beginning
+0000.186 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.398 (0) Total entities for the zip file: 629 directories, 3749 files (0 skipped as non-modified), 65.8 MB
+0000.403 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.407 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.414 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.419 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.424 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.425 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 3749 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.701 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 0.80 MB
+0000.706 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 600 files added (on-disk size: 847.4 KB)
+0000.709 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 700 files added (on-disk size: 847.4 KB)
+0000.713 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 800 files added (on-disk size: 847.4 KB)
+0000.717 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 900 files added (on-disk size: 847.4 KB)
+0000.721 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1000 files added (on-disk size: 847.4 KB)
+0000.722 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 3749 files batched, 501 (1002) added so far); re-opening (prior size: 847.4 KB)
+0001.130 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 2.30 MB
+0001.136 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1100 files added (on-disk size: 2317.2 KB)
+0001.141 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1200 files added (on-disk size: 2317.2 KB)
+0001.146 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1300 files added (on-disk size: 2317.2 KB)
+0001.151 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1400 files added (on-disk size: 2317.2 KB)
+0001.155 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1500 files added (on-disk size: 2317.2 KB)
+0001.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17.5 MB, 3749 files batched, 501 (1503) added so far); re-opening (prior size: 2317.2 KB)
+0002.653 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 7.20 MB
+0002.658 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1600 files added (on-disk size: 7391.2 KB)
+0002.662 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1700 files added (on-disk size: 7391.2 KB)
+0002.666 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1800 files added (on-disk size: 7391.2 KB)
+0002.670 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 1900 files added (on-disk size: 7391.2 KB)
+0002.675 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2000 files added (on-disk size: 7391.2 KB)
+0002.676 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 3749 files batched, 501 (2004) added so far); re-opening (prior size: 7391.2 KB)
+0003.563 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 11.00 MB
+0003.576 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2100 files added (on-disk size: 11214.8 KB)
+0003.586 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2200 files added (on-disk size: 11214.8 KB)
+0003.592 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2300 files added (on-disk size: 11214.8 KB)
+0003.596 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2400 files added (on-disk size: 11214.8 KB)
+0003.603 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2500 files added (on-disk size: 11214.8 KB)
+0003.607 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 3749 files batched, 501 (2505) added so far); re-opening (prior size: 11214.8 KB)
+0004.163 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2600 files added (on-disk size: 12387.8 KB)
+0004.168 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2700 files added (on-disk size: 12387.8 KB)
+0004.172 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2800 files added (on-disk size: 12387.8 KB)
+0004.178 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 2900 files added (on-disk size: 12387.8 KB)
+0004.184 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3000 files added (on-disk size: 12387.8 KB)
+0004.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.5 MB, 3749 files batched, 501 (3006) added so far); re-opening (prior size: 12387.8 KB)
+0005.341 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 15.80 MB
+0005.346 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3100 files added (on-disk size: 16182.5 KB)
+0005.350 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3200 files added (on-disk size: 16182.5 KB)
+0005.354 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3300 files added (on-disk size: 16182.5 KB)
+0005.359 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3400 files added (on-disk size: 16182.5 KB)
+0005.364 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3500 files added (on-disk size: 16182.5 KB)
+0005.365 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.1 MB, 3749 files batched, 501 (3507) added so far); re-opening (prior size: 16182.5 KB)
+0006.189 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: size is now: 19.20 MB
+0006.195 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3600 files added (on-disk size: 19632.5 KB)
+0006.200 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip.tmp: 3700 files added (on-disk size: 19632.5 KB)
+0006.880 (0) Created plugins zip (0) - 21641.8 KB in 6.7 s (3249.6 KB/s) (sha1: a05ba6565e78c92b109a68ccaa515d083add49c2, sha256: 3471ab1de8849535bb5d60b187335e428a22e25e6ad8875284b3feedd9123fd9)
+0006.882 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.042 (0) Total entities for the zip file: 130 directories, 627 files (0 skipped as non-modified), 13.2 MB
+0007.046 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.051 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.054 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.058 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.062 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.063 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.7 MB, 627 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.666 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: size is now: 7.70 MB
+0007.671 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip.tmp: 600 files added (on-disk size: 7840.1 KB)
+0007.978 (0) Created themes zip (0) - 8592.3 KB in 1.1 s (8113.3 KB/s) (sha1: 6c4953189d809bfc70322d174e47d3f0f885cf98, sha256: 6a47924070d1b1e3514455e1bae27b7c602f7d235a895cf213082274b6fbeb2f)
+0007.980 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.981 (0) Looking for candidates to backup in: /home1/devstag1/public_html/CrookedCue/wp-content/uploads
+0007.981 (0) finding files: 2020: adding to list (1)
+0007.981 (0) finding files: sinatra: adding to list (2)
+0007.982 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.024 (0) Total entities for the zip file: 5 directories, 102 files (0 skipped as non-modified), 9 MB
+0008.028 (0) Zip: backup_2020-05-08-0910_Crooked_Cue_f68004859014-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0008.293 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-uploads.zip.tmp: size is now: 9.00 MB
+0008.410 (0) Created uploads zip (0) - 9206.5 KB in 0.4 s (23256.9 KB/s) (sha1: 8256469c8c6b290cde949d20a7163dfed0921205, sha256: b9802ec379b3690582a4e41048fcd85a67cb930e547ef184d5c35c377854b76e)
+0008.412 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.412 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.413 (0) Looking for candidates to backup in: /home1/devstag1/public_html/CrookedCue/wp-content
+0008.413 (0) finding files: mu-plugins: adding to list (1)
+0008.413 (0) finding files: plugins: skipping: this is the plugins directory
+0008.414 (0) finding files: updraft: skipping: this is the updraft directory
+0008.414 (0) finding files: themes: skipping: this is the themes directory
+0008.414 (0) finding files: index.php: adding to list (2)
+0008.415 (0) finding files: uploads: skipping: this is the uploads directory
+0008.415 (0) finding files: upgrade: skipping: excluded by options
+0008.450 (0) Total entities for the zip file: 1 directories, 3 files (0 skipped as non-modified), 0 MB
+0008.459 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-others.zip.tmp: size is now: 0.00 MB
+0008.462 (0) Created others zip (0) - 12.5 KB in 0 s (912.1 KB/s) (sha1: 583337fd6516268d1b6557f35b4f8a35183acddd, sha256: 35cd4ea6fd7af0a22e43a96bffbd5c5bfb830027332222a5b75fd11bfea3de4f)
+0008.465 (0) Saving backup status to database (elements: 8)
+0008.466 (0) Beginning creation of database dump (WordPress DB)
+0008.467 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0008.701 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\n/*!50717 SELECT COUNT(*) INTO @rocksdb_has_p_s_session_variables FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'performance_schema' AND TABL (truncated - 1902 bytes total)
+0008.703 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0008.712 (0) Table 0nt_options: Total expected rows (approximate): 211
+0008.751 (0) Table 0nt_options: Total rows added: 207 in 0.04 seconds
+0008.754 (0) Table 0nt_options: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_options.table.gz - 123.5 KB)
+0008.758 (0) Table 0nt_users: Total expected rows (approximate): 1
+0008.761 (0) Table 0nt_users: Total rows added: 1 in 0.00 seconds
+0008.762 (0) Table 0nt_users: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_users.table.gz - 0.5 KB)
+0008.765 (0) Table 0nt_usermeta: Total expected rows (approximate): 22
+0008.767 (0) Table 0nt_usermeta: Total rows added: 22 in 0.00 seconds
+0008.768 (0) Table 0nt_usermeta: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_usermeta.table.gz - 1 KB)
+0008.771 (0) Table 0nt_commentmeta: Total expected rows (approximate): 0
+0008.773 (0) Table 0nt_commentmeta: Total rows added: 0 in 0.00 seconds
+0008.773 (0) Table 0nt_commentmeta: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_commentmeta.table.gz - 0.3 KB)
+0008.776 (0) Table 0nt_comments: Total expected rows (approximate): 1
+0008.778 (0) Table 0nt_comments: Total rows added: 1 in 0.00 seconds
+0008.778 (0) Table 0nt_comments: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_comments.table.gz - 0.7 KB)
+0008.781 (0) Table 0nt_links: Total expected rows (approximate): 0
+0008.783 (0) Table 0nt_links: Total rows added: 0 in 0.00 seconds
+0008.783 (0) Table 0nt_links: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_links.table.gz - 0.4 KB)
+0008.786 (0) Table 0nt_postmeta: Total expected rows (approximate): 1090
+0008.806 (0) Table 0nt_postmeta: Total rows added: 1090 in 0.02 seconds
+0008.807 (0) Table 0nt_postmeta: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_postmeta.table.gz - 13.5 KB)
+0008.810 (0) Table 0nt_posts: Total expected rows (approximate): 162
+0008.819 (0) Table 0nt_posts: Total rows added: 162 in 0.01 seconds
+0008.820 (0) Table 0nt_posts: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_posts.table.gz - 13 KB)
+0008.824 (0) Table 0nt_term_relationships: Total expected rows (approximate): 1
+0008.825 (0) Table 0nt_term_relationships: Total rows added: 1 in 0.00 seconds
+0008.826 (0) Table 0nt_term_relationships: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_term_relationships.table.gz - 0.3 KB)
+0008.828 (0) Table 0nt_term_taxonomy: Total expected rows (approximate): 1
+0008.831 (0) Table 0nt_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0008.831 (0) Table 0nt_term_taxonomy: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_term_taxonomy.table.gz - 0.4 KB)
+0008.835 (0) Table 0nt_termmeta: Total expected rows (approximate): 0
+0008.836 (0) Table 0nt_termmeta: Total rows added: 0 in 0.00 seconds
+0008.837 (0) Table 0nt_termmeta: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_termmeta.table.gz - 0.3 KB)
+0008.839 (0) Table 0nt_terms: Total expected rows (approximate): 1
+0008.841 (0) Table 0nt_terms: Total rows added: 1 in 0.00 seconds
+0008.842 (0) Table 0nt_terms: finishing file (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_terms.table.gz - 0.4 KB)
+0008.843 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_options.table.gz (1/12): adding to final database dump
+0008.874 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_users.table.gz (2/12): adding to final database dump
+0008.875 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_usermeta.table.gz (3/12): adding to final database dump
+0008.876 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_commentmeta.table.gz (4/12): adding to final database dump
+0008.876 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_comments.table.gz (5/12): adding to final database dump
+0008.877 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_links.table.gz (6/12): adding to final database dump
+0008.878 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_postmeta.table.gz (7/12): adding to final database dump
+0008.881 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_posts.table.gz (8/12): adding to final database dump
+0008.885 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_term_relationships.table.gz (9/12): adding to final database dump
+0008.886 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_term_taxonomy.table.gz (10/12): adding to final database dump
+0008.887 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_termmeta.table.gz (11/12): adding to final database dump
+0008.887 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db-table-0nt_terms.table.gz (12/12): adding to final database dump
+0008.888 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db.gz: finished writing out complete database file (136 KB)
+0008.895 (0) Total database tables backed up: 12 (backup_2020-05-08-0910_Crooked_Cue_f68004859014-db.gz, size: 155910, sha1: 88b3155b0e8057aded5a73a5d185439b11e9f080, sha256: 1c4a9364fd92735132fe092149a7027af03e4eaf113c94101d2a6d4be269a6f8)
+0008.898 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.899 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.899 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.900 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.900 (0) backup_2020-05-08-0910_Crooked_Cue_f68004859014-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.901 (0) Saving backup history. Total backup size: 38.7 MB
+0008.902 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.904 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.905 (0) No remote despatch: user chose no remote backup service
+0008.905 (0) Recording as successfully uploaded: backup_2020-05-08-0910_Crooked_Cue_f68004859014-plugins.zip
+0008.906 (0) Recording as successfully uploaded: backup_2020-05-08-0910_Crooked_Cue_f68004859014-themes.zip
+0008.908 (0) Recording as successfully uploaded: backup_2020-05-08-0910_Crooked_Cue_f68004859014-uploads.zip
+0008.909 (0) Recording as successfully uploaded: backup_2020-05-08-0910_Crooked_Cue_f68004859014-others.zip
+0008.910 (0) Recording as successfully uploaded: backup_2020-05-08-0910_Crooked_Cue_f68004859014-db.gz
+0008.913 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.914 (0) Number of backup sets in history: 1; groups (db): 1
+0008.915 (0) Examining (for databases) backup set with group_id=0, nonce=f68004859014, datestamp=1588929058 (May 08 2020 09:10:58)
+0008.915 (0) This backup set is the backup set just made, so will not be deleted.
+0008.915 (0) Number of backup sets in history: 1; groups (files): 1
+0008.916 (0) Examining (for files) backup set with nonce=f68004859014, datestamp=1588929058 (May 08 2020 09:10:58)
+0008.916 (0) This backup set is the backup set just made, so will not be deleted.
+0008.916 (0) This backup set is the backup set just made, so will not be deleted.
+0008.916 (0) This backup set is the backup set just made, so will not be deleted.
+0008.917 (0) This backup set is the backup set just made, so will not be deleted.
+0008.917 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.918 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.920 (0) Resume backup (f68004859014, 0): finish run
+0008.922 (0) Decremented the semaphore (fd) by 1
+0008.923 (0) Semaphore (fd) unlocked
+0008.923 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.925 (0) No email will/can be sent - the user has not configured an email address.
+0008.926 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Fri, 08 May 2020 10:40:24 +0000 on http://crookedcue.devstageserver.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4.1 PHP: 7.2.30 (cgi-fcgi, Linux box5691.bluehost.com 4.14.94-164.ELK.el7.x86_64 #1 SMP Wed Jan 16 17:14:35 CST 2019 x86_64) MySQL: 5.7.23-23 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 32.2M | 34.3M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.054 (1) Free space on disk containing Updraft's temporary directory: 195652.1 MB
+0000.055 (1) This backup task (f68004859014) is either complete or began over 2 days ago: ending (1588934424.5709, ) (existing jobdata keys: )

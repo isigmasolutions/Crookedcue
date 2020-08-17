@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.header{position:relative}
+.header.white{border:none}
+body.scrollActive .header{background:#fff}
+.topNav{ padding:0 30px;}
+.topNav a{ color:#000}    
+.location:before{filter:none; background:url(../images/loction-icon.jpg)}
+a.logo img{ max-height:80px;filter:none;}
+.headerContainerShadow,
+.scrollActive .headerContainerShadow{background: #fff;box-shadow: 0 0 10px 0 rgba(0,0,0, 0.3);z-index: 999;position: relative;}
+.header-meta{ background:#fff;box-shadow: 0 0 10px 0 rgba(0,0,0, 0.3);}
+.header-meta .container-fluid{display: flex; padding-left:0}
+.header-meta .contact-info{display: flex;justify-content: flex-start;align-items: center;background: #3b3c3e;padding: 0 25px;flex-flow: wrap;}
+.header-meta .contact-info h6{ color:#fff;flex: 0 0 100%; margin:0}
+.header-meta .contact-info a{color:#fff}
+.header-meta nav.nav{ text-align: center;margin: 0px 0 0;padding: 0;justify-content: flex-end;display: flex;flex: 1 1 0%; }
+.header-meta nav.nav ul { width: 100%; margin:0; padding:0; list-style: none }
+.header-meta nav.nav ul li { display:inline-block; position: relative; transition: all 200ms ease 0s; float:left; line-height:60px; }
+.header-meta nav.nav ul a { font-size:16px; font-weight:400; padding:10px 15px; color:#252525; transition:line-height 0.5s ease 0s; text-transform:uppercase; position:relative; }
+.header-meta nav.nav ul li:hover > a { color:#d08751; }
+.header-meta nav.nav ul li.current-menu-item > a { color: #000; font-weight:600; }
+.header-meta nav.nav ul li.current-menu-parent > a { color: #000; font-weight:600; }
+.header-meta nav.nav ul li:hover > ul { display: block; margin-top:0; transition: margin 200ms ease 0s; opacity:1; visibility:visible }
+.header-meta nav.nav ul ul { background:#fff; list-style: none; margin-top:30px; padding:0px; position: absolute; top:100%; width:14em; left: 0; z-index: 99999; opacity:0; visibility:hidden; border-radius:0 0 4px 4px; padding-bottom:5px; box-shadow: 0 0 4px rgba(0, 0, 0, .2); }
+.header-meta nav.nav ul ul ul{top:0; left:100%;}
+.header-meta nav.nav ul ul li { float: none; margin: 0; padding: 0; display: block; transition: all 200ms ease 0s; border-bottom:1px solid #ddd }
+.header-meta nav.nav ul ul li:last-child { border:none }
+.header-meta nav.nav ul ul li:first-child a { padding-left:10px; }
+.header-meta nav.nav ul ul li:last-child a { padding-right:10px; }
+.header-meta nav.nav ul ul a { padding:13px 10px; font-size:14px; color:#252525; width:auto; height: auto; line-height: 1.5; display: block; float: none; text-transform: none; text-transform:capitalize; text-shadow: inherit; border-right:none; border-left:none; text-align:left; font-weight:400 }
+.header-meta nav.nav ul ul a:hover { background:#eee; color: #252525; }
+.header-meta nav.nav ul ul li.active a { font-weight:400; background:#785923; color: #fff; }

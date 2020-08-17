@@ -1,0 +1,582 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#place_order {
+    position: relative;
+}
+#place_order::after {
+    content: " a call with your party host";
+}
+.woocommerce-form-coupon-toggle, .woocommerce form.checkout_coupon {
+    display: none !important;
+}
+.woocommerce-privacy-policy-text a {
+    color: #ce854e;
+}
+.xoo-wsc-items-count {
+  background-color: #ce854e;
+}
+
+.orderBtn_1.checkorvieworder {
+    color: #fff !important;
+    margin-top: 0;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+#PartyInformation h3 {
+    margin-bottom: 15px;
+}
+.appendpartyhtml .menu .col-price {
+    font-size: 18px !important;
+}
+.accordion, #OrganizerInfoform h3, #PartyInformation h3 {
+    font-size: 22px !important;
+}
+.page-template-resturantmenu .content-area {
+    padding-top: 0;
+}.screen-reader-text {
+    position: static !important;
+    overflow: visible !important;
+    width: 100%;
+    clip-path: none;
+}
+.onsale {
+    display: none;
+}
+.remodal .product_meta {
+    display: none;
+}
+.partyCost ul li > span {
+    width: 78px;
+}
+.header-cart-total {
+    float: left;
+}
+.partyCost ul li strong {
+    float: left;
+}
+.partyCost ul li {
+    padding: 7px 0;
+    content: "";
+    display: inline-block;
+}
+.partyCost ul li span {
+    float: left;
+}
+.party-planner .col-md-9 .locationpart h3 {
+    margin: 25px 0 0;
+}
+.accordion {
+    cursor: pointer;
+}
+.party-planner .panel .white-bg {
+    margin: 0 !important;
+}
+.wc-product-table-wrapper {
+    margin-bottom: 0;
+}
+.partyCost ul {
+    text-align: left;
+}
+.menuMain {
+    box-shadow: 0px 1px 4px 1px #919090;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.accordion {
+    padding: 17px 20px !important;
+    border-radius: 5px;
+}
+.PartyInfo input[type="number"] {
+    width: 85px;
+}
+@media(min-width:768px) and (max-width:991px)
+{
+  .party-planner .PartyInfo .white-bg ul li {
+    width: 100%;
+}
+  .PartyInfo input[type="date"] {
+    background-size: 17px;
+}
+}
+  .PartyInfo select {
+    width: 66%;
+}
+#rsvpform #sendemailtousers {
+    background: #ce854e !important;
+    cursor: pointer;
+    color: white !important;
+    transition: all 1s ease-in-out;
+    border: 2px solid #d08751;
+    font-weight: bold;
+    font-size: .900em !important;
+    padding: 4px 30px !important;
+    margin: 15px 0 0 !important;
+    display: block !important;
+    width: 155px;
+    height: 35px !important;
+    border-radius: 0;
+}
+#rsvpform label {
+    display: block;
+}
+#rsvpform textarea, #rsvpform #rsvplink {
+    width: 100% !important;
+    border: 2px solid #ce854e;
+    padding: 5px 12px !important;
+    min-width: 100% !important;
+    text-align: left !important;
+}
+.woocommerce table.my_account_orders td, .woocommerce table.my_account_orders th {
+    padding: 18px 10px;
+}
+.woocommerce table.my_account_orders {
+    font-size: 14px;
+}
+.wc-product-table .multi-cart .multi-cart-check input[type="checkbox"], .wc-product-table .multi-cart .multi-cart-check input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    position: relative;
+    left: -5px;
+}
+#wcqv_contend .images {
+    height: 330px;
+}
+#wcqv_contend .images img {
+    object-fit: cover;
+    height: 100%;
+}
+#wcqv_contend .quantity {
+    float: none !important;
+}
+.variations select {
+border: 2px solid #ce854e;
+    padding: 5px 12px !important;
+    margin-left: 10px !important;
+}
+.summary-content .quantity input {
+    width: 100% !important;
+    border: 2px solid #ce854e;
+    padding: 5px 12px !important;
+    min-width: 100% !important;
+    text-align: left !important;
+  margin:10px 0
+}
+.summary-content .quantity {
+    width: 150px !important;
+  display:block
+}
+.summary-content .single_add_to_cart_button {
+    background: #ce854e !important;
+    cursor: pointer;
+    color: white !important;
+    transition: all 1s ease-in-out;
+    border: 2px solid #d08751;
+    font-weight: bold;
+    font-size: .900em !important;
+    padding: 4px 30px !important;
+    margin: 15px 0 0 !important;
+    display: block !important;
+    width: 150px;
+    height: 35px !important;
+    border-radius: 0;
+}
+#product-row-489 .variations_form.cart.initialised {
+    display: none;
+}
+.RestaurantArea table tr td {
+    display: block;
+}
+.RestaurantArea .col-name, .RestaurantArea .col-name {
+    font-weight: bold;
+}
+.RestaurantArea .col-price {
+    font-size: 1.5rem;
+}
+.RestaurantArea table tr {
+    display: block;
+}
+.RestaurantArea thead {
+    display: none;
+}
+/*.RestaurantArea .col-add-to-cart, .RestaurantArea .col-name {
+    display: inline-block !important;
+}*/
+.RestaurantArea .woocommerce a.quick_view {
+    background-color: transparent;
+    margin: 0 -7px 0 0 !important;
+    padding: 0;
+}
+.RestaurantArea .wc-product-table .multi-cart {
+    position: relative;
+    padding-right: 5px;
+}
+.RestaurantArea .col-name {
+    width: 90%;
+    padding: 12px 10px;
+}
+.appendpartyhtml .wc-product-table-above {
+    display: none;
+}
+.appendpartyhtml .menu thead {
+    display: none;
+}
+.appendpartyhtml .menu .col-name{
+    font-weight: bold;
+}
+.appendpartyhtml .menu .col-description {
+    font-size: .750em;
+    display: block;
+    font-weight: 500;
+}
+.appendpartyhtml .menu .col-price{
+    margin: 16px 0 0;
+    font-weight: bold;
+    font-size: 1.8em;
+    display: inline-block;
+}
+.appendpartyhtml .menu .white-bg {
+    padding: 0;
+    border: 0;
+}
+.appendpartyhtml .menu table tr {
+   /* border: 10px solid #fff !important;*/
+    padding: 30px 20px !important;
+  border-top: 1px solid #ababab !important;
+border-radius: 0 !important;
+}
+.appendpartyhtml .menu .wc-product-table-wrapper {
+    margin-top: 0;
+}
+.appendpartyhtml .menu table tr {
+    display: block;
+  position:relative
+}
+/*.appendpartyhtml .menu .white-bg {
+    min-height: 260px;
+}*/
+.appendpartyhtml .menu .single_add_to_cart_button {
+    background: #ce854e !important;
+    cursor: pointer;
+    color: white !important;
+    transition: all 1s ease-in-out;
+    border: 2px solid #d08751;
+    font-weight: bold;
+    font-size: .900em !important;
+    padding: 4px 30px !important;
+    margin: 15px 0 0 !important;
+    display: block !important;
+    width: 100%;
+    height: 35px !important;
+    border-radius: 0;
+}
+.appendpartyhtml .menu .woocommerce a.quick_view {
+    background: #ce854e !important;
+    cursor: pointer;
+    color: white !important;
+    transition: all 1s ease-in-out;
+    border: 2px solid #d08751;
+    font-weight: bold;
+    font-size: .900em !important;
+    padding: 4px 30px !important;
+    margin: 15px 0 0 !important;
+    display: block !important;
+    width: 100%;
+    height: 35px !important;
+    border-radius: 0;
+}
+.appendpartyhtml .menu .wc-product-table .cart .quantity {
+    display: block !important;
+    width: 25% !important;
+}
+.appendpartyhtml .menu .wc-product-table .cart .quantity {
+    display: block !important;
+    width: 97% !important;
+}
+body .woocommerce .quantity .qty {
+    width: 100% !important;
+    border: 2px solid #ce854e;
+    padding: 5px 12px !important;
+    min-width: 100% !important;
+    text-align: left !important;
+}
+.appendpartyhtml .menu .wc-product-table .multi-cart {
+    padding-right: 0;
+}
+.appendpartyhtml .menu .multi-cart-check {
+    display: none;
+}
+.appendpartyhtml .menu .add-to-cart-button {
+    width: 100%;
+}
+.appendpartyhtml .menu .wc-product-table .cart .quantity {
+    margin-bottom: 25px !important;
+}
+.appendpartyhtml .menu .white-bg {
+    box-shadow: none;
+    background: transparent;
+
+}
+/*.map-locations {
+    float: right;
+    margin: 4% 12%;
+    color: #552215;
+    text-transform: uppercase;
+    font-weight: 600;
+}*/
+.map-locations {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 600;
+    top: 34%;
+    right: 80px;
+    font-size: 13px !important;
+    color: #d08751 !important;
+}
+.page-template-view_order_summary #PartyInformation .white-bg {
+    box-shadow: 0px 0px 10px -1px #ccc;
+    padding: 30px 20px;
+    background: #f9f9f9;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.page-template-view_order_summary #PartyInformation ul li {
+    width: 33.33%;
+    padding: 0 10px;
+    text-align: left;
+}
+.page-template-view_order_summary #PartyInformation ul {
+    display: flex;
+    flex-flow: wrap row;
+    margin: 0;
+}
+.page-template-view_order_summary #PartyInformation ul li label {
+    width: 100%;
+  margin-bottom: .5rem;
+}
+.page-template-view_order_summary #PartyInformation ul li span {
+    background-repeat: no-repeat;
+    background-image: url(../img/calender.jpg);
+    background-position: 98% 55%;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    font-weight: 700;
+}
+.page-template-view_order_summary #PartyInformation ul li ul li {
+    width: 24%;
+}
+.page-template-view_order_summary #PartyInformation ul li ul li:last-child {
+    width: 75%;
+}
+.page-template-view_order_summary #OrganizerInfo ul li label {
+    width: 100%;
+  margin-bottom: .5rem;
+}
+.page-template-view_order_summary #OrganizerInfo ul li span {
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    border-radius: 0;
+    height: 44px;
+    display: block;
+    font-weight: 700;
+}
+.page-template-view_order_summary .OrganizerInfo .OrganizerFrom ul {
+    justify-content: left;
+}
+.page-template-view_order_summary #specialRequest ul {
+    box-shadow: 0px 0px 10px -1px #ccc;
+    padding: 30px 20px;
+    background: #f9f9f9;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.page-template-view_order_summary #PartyInformation h3, .page-template-view_order_summary #specialRequest h3, .page-template-view_order_summary #OrganizerInfo h3 {
+    font-weight: bold;
+    margin: 35px 0 20px;
+    text-align: left;
+}
+.appendpartyhtml .menu {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+table.dataTable.no-footer {
+    border-bottom: none;
+}
+@media(max-width:767px)
+{
+  .megamenu {
+    height: 76vh;
+    overflow: scroll;
+    border-bottom: 5px solid #d89868;
+}
+ .page-id-296 a.Mississauga, .page-id-266 a.Mississauga, .page-id-301 a.Mississauga, .page-id-257 a.Mississauga, .page-id-220 a.Mississauga, .page-id-230 a.Mississauga{
+    display: block !important;
+}
+  .page-id-568 a.Etobicoke, .page-id-512 a.Etobicoke, .page-id-514 a.Etobicoke, .page-id-586 a.Etobicoke, .page-id-556 a.Etobicoke, .page-id-596 a.Etobicoke{
+    display: block !important;
+}
+  .page-template-view_order_summary .OrganizerInfo .OrganizerFrom ul li {
+    width: 100%;
+}
+.page-template-view_order_summary #PartyInformation ul {
+    display: block;
+}  
+  .page-template-view_order_summary #PartyInformation ul li {
+    width: 100%;
+    max-width: 100%;
+}
+  .page-template-view_order_summary #PartyInformation ul li ul li {
+    width: 100%;
+    padding: 0;
+}
+  .page-template-view_order_summary #PartyInformation ul li ul li:last-child {
+    width: 100%;
+}
+}
+@media(min-width:1200px)
+{
+  .RestaurantArea .col-description, .RestaurantArea .col-image {
+    display: inline-block !important;
+    width: 41%;
+}
+.RestaurantArea .col-image {
+    position: absolute;
+    right: 3%;
+    margin-top: -40px;
+}
+.appendpartyhtml .menu .col-add-to-cart {
+    position: absolute;
+    top: 45px;
+    right: 3%;
+    width: 200px !important;
+}
+}
+
+@media(min-width:768px)
+{
+  .map-locations {
+    display:none
+}
+}
+
+#foodmenu p{font-size:18px}
+#foodmenu .widget-title {
+    margin: 0 0 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 22px;
+}
+#foodmenu .panel-body h4 {
+    margin: 0 auto 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 22px;
+}
+#foodmenu .panel-body{padding: 30px 30px}
+
+#foodmenu h5, #foodmenu p {
+    margin: 8px 0 0;
+    display: inline-block;
+}
+.mainHeadCol h3 {
+    color: #fff !important;
+    margin: 0 !important;
+}
+.woocommerce-MyAccount-navigation {
+  width: 85%;
+border-radius: 10px;
+background: #3b3c3e;
+}
+.woocommerce-MyAccount-navigation ul {
+    width: 100%;
+    margin-left: auto;
+    padding: 15px 30px;
+}
+.woocommerce-MyAccount-navigation ul li {
+    padding: 3px 0;
+}
+.woocommerce-MyAccount-navigation ul li a {
+    position: relative;
+    color: white;
+}
+.woocommerce-MyAccount-navigation ul li a:hover {
+    font-weight: bold;
+}
+.woocommerce-MyAccount-navigation ul li a:hover::before {
+    content: "";
+    position: absolute;
+    background: #d2874f;
+    width: 4px;
+    height: 100%;
+    left: -10px;
+}
+.woocommerce-MyAccount-content {
+    box-shadow: 0px 0px 10px -1px #ccc;
+    padding: 30px 20px;
+    background: #f9f9f9;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 48%;
+    max-width: 48%;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: right;
+    width: 48%;
+    max-width: 48%;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    border: 2px solid #ce854e;
+    padding: 10px;
+}
+.woocommerce-EditAccountForm.edit-account fieldset{margin-top:30px}
+.woocommerce-EditAccountForm.edit-account fieldset label {
+    width: 100%;
+}
+.woocommerce button.button {
+    background: #ce854e !important;
+    cursor: pointer;
+    color: white !important;
+    transition: all 1s ease-in-out;
+    border: 2px solid #d08751;
+    font-weight: bold;
+    font-size: .900em !important;
+    padding: 4px 30px !important;
+    margin: 15px 0 0 !important;
+    display: table !important;
+    width: auto;
+    height: 35px !important;
+    border-radius: 0;
+}
+form.woocommerce-form.woocommerce-form-login.login label {
+    display: block;
+    width: 100%;
+}
+.col-add-to-cart {
+    display: none !important;
+}
+.appendpartyhtml .menu .col-add-to-cart {
+    display: block !important;
+}
+.OrganizerInfo {
+    text-align: center;
+    margin-top: 20px;
+}</style>
+<!-- end Simple Custom CSS and JS -->
